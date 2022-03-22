@@ -16,7 +16,8 @@ The scores of the best models of each one of theese model types are listed below
 | ----------- | ----------- | ------------- | ------ | ------- |
 | Softmax Regression | 73.093% | 73.4%  | 72.967% | 73% |
 | Feed-Forward neural network   | 73.479% | 73.794% | 73.424% | 73.79492% |
-| LSTM neural network | 74.483% | 73.882% | 73.919% | 73.88256% |
+| LSTM neural network | 73.871% | 73.794% | 73.718% | 73.79492% |
+| LSTM with attention layer | 74.483% | 73.882% | 73.919% | 73.88256% |
 | BERT-Base-uncased | 78.564% | 77.826% | 77.738% | 77.739% |
 
 You can clearly see the increase of the scores when i increase the complexity of the used model (especially in BERT) because the statistical hypothesis in more complex models is usually more accurate.
